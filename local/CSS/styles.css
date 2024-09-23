@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* menu */
+a:visited,
+a:link {
+    text-decoration: none;
+    color: black; 
+}
+
+nav ul li{
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    padding: 0.3em;
+}
+
+#logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 6em;
+}
+
+#menu div ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body header nav {
+   background-color: #ECE1CB;
+   text-align: center;
+   padding: 0 4em; 
+   position: fixed;
+   width: 100vw;
+   transition-duration: 0.3s;
+
+}
+
+p{
+    font-size: 3em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.scrolled{
+    width: 80vw;
+    border-radius: 90px;
+    margin-top: 1em;
+    opacity: 0.95;
+}
+
+/* video hero */
+video{
+    width: 100vw;
+}
