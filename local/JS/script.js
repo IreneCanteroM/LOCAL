@@ -1,12 +1,24 @@
-window.addEventListener('scroll', scrollFunction);
+// menu que se encoje y redondea al hacer scroll
 
-function scrollFunction() {
-    const navbar = document.getElementById('menu');
-    if (window.scrollY > 50) { 
-        navbar.classList.add('scrolled');
+const menu = document.getElementById("menu");
+const navbarCollapse = document.getElementById("navbarNav");
+
+window.addEventListener('scroll', function() {
+    const scrollY = window.scrollY;
+ 
+    menu.style.borderRadius = scrollY === 0 ? '0' : '900px';
+
+    if (scrollY > 50) { 
+        menu.classList.add('scrolled');
     } else {
-        navbar.classList.remove('scrolled');
+        menu.classList.remove('scrolled');
     }
-}
+});
 
-  
+navbarCollapse.addEventListener('show.bs.collapse', function () {
+    menu.style.borderRadius = "30px";
+});
+
+navbarCollapse.addEventListener('hide.bs.collapse', function () {
+    menu.style.borderRadius = "900px";
+});
