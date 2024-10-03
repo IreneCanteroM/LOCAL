@@ -12,6 +12,7 @@
     --rojo: #DF6F5B;
     --azul: #5477A4;
     --verde: #256063;
+    --turquesa: #7AB6B9;
   }
 
 /* menu */
@@ -80,4 +81,52 @@ p{
     z-index: 1;
 }
 
+/* bucket list */
+.img-bl{
+    width: 100%;
+    background-color: var(--beige);
+}
 
+.frases-bl{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/* .frases-bl{
+    display: flex;
+    flex-direction: column;
+} */
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.5);
+    accent-color: var(--amarillo);
+    margin-top: 1rem;
+
+}
+
+
+label{
+    font-size: 0.8rem;
+}
+
+.red{
+    background-color: var(--rojo);
+}
+
+.yellow{
+    background-color: var(--amarillo);
+}
+
+.green{
+    background-color: var(--verde);
+}
+
+.blue{
+    background-color: var(--turquesa);
+}
+
+.orange{
+    background-color: var(--naranja);
+}
