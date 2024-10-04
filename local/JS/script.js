@@ -36,6 +36,11 @@ checkbox.addEventListener("change", function() {
   }
 });
 
+
+image.addEventListener("click", function() {
+  image.classList.toggle("red"); // Añade o quita la clase "red"
+});
+
 const checkbox2 = document.getElementById("jamon");
 const image2 = document.getElementById("bl-2");
 
