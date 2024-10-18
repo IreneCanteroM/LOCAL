@@ -32,6 +32,7 @@
 }
 .navbar{
     width: 100%;
+    z-index: 999;
 }
 
 a:visited,
@@ -92,6 +93,11 @@ p{
 .img-bl{
     width: 100%;
     background-color: var(--beige);
+    transition: transform .2s; 
+}
+
+.img-bl:hover{
+    transform: scale(1.03);
 }
 
 .frases-bl{
@@ -149,3 +155,29 @@ label{
     text-shadow: -2px 1px 12px rgba(0,0,0,0.74);
 
 }
+
+/* parallax */
+#img-parallax{
+    background-image: url("../media/fondo-churros.png");
+    height: 20vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bucketlist h3{
+        font-family: "Caveat Brush", cursive;
+        font-weight: 400;
+        font-style: normal;  
+        font-size: 3rem;  
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+}
+
+#bucketlist .row{
+padding-bottom: 1.5em;
+}
+
+

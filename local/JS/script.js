@@ -24,63 +24,44 @@ navbarCollapse.addEventListener('hide.bs.collapse', function () {
 });
 
 
-// checkbox
-const checkbox = document.getElementById("calamares");
-const image = document.getElementById("bl-1");
+// checkboxes
+const items = [
+  { checkboxId: "calamares", imageId: "bl-1", color: "red" },
+  { checkboxId: "jamon", imageId: "bl-2", color: "yellow" },
+  { checkboxId: "churros", imageId: "bl-3", color: "green" },
+  { checkboxId: "rastro", imageId: "bl-4", color: "blue" },
+  { checkboxId: "cocido", imageId: "bl-5", color: "orange" },
+  { checkboxId: "granvia", imageId: "bl-6", color: "orange" },
+  { checkboxId: "tortilla", imageId: "bl-7", color: "red" },
+  { checkboxId: "torres", imageId: "bl-8", color: "blue" },
+  { checkboxId: "palacio", imageId: "bl-9", color: "green" },
+  { checkboxId: "retiro", imageId: "bl-10", color: "yellow" },
+  { checkboxId: "metro", imageId: "bl-11", color: "yellow" },
+  { checkboxId: "prado", imageId: "bl-12", color: "green" },
+  { checkboxId: "plaza", imageId: "bl-13", color: "orange" },
+  { checkboxId: "oso", imageId: "bl-14", color: "red" },
+  { checkboxId: "puerta", imageId: "bl-15", color: "blue" }
+];
 
-checkbox.addEventListener("change", function() {
-  if (checkbox.checked) {
-    image.classList.add("red");
-  } else {
-    image.classList.remove("red");
-  }
+function toggleColor(checkbox, image, color) {
+  checkbox.addEventListener("change", function() {
+    if (this.checked) {
+      image.classList.add(color);
+    } else {
+      image.classList.remove(color);
+    }
+  });
+
+  image.addEventListener("click", function() {
+    this.classList.toggle(color); 
+    checkbox.checked = !checkbox.checked;
+  });
+}
+
+items.forEach(item => {
+  const checkbox = document.getElementById(item.checkboxId);
+  const image = document.getElementById(item.imageId);
+  toggleColor(checkbox, image, item.color);
 });
 
 
-image.addEventListener("click", function() {
-  image.classList.toggle("red"); // Añade o quita la clase "red"
-});
-
-const checkbox2 = document.getElementById("jamon");
-const image2 = document.getElementById("bl-2");
-
-checkbox2.addEventListener("change", function() {
-  if (checkbox2.checked) {
-    image2.classList.add("yellow");
-  } else {
-    image2.classList.remove("yellow");
-  }
-});
-
-const checkbox3 = document.getElementById("churros");
-const image3 = document.getElementById("bl-3");
-
-checkbox3.addEventListener("change", function() {
-  if (checkbox3.checked) {
-    image3.classList.add("green");
-  } else {
-    image3.classList.remove("green");
-  }
-});
-
-const checkbox4 = document.getElementById("rastro");
-const image4 = document.getElementById("bl-4");
-
-checkbox4.addEventListener("change", function() {
-  if (checkbox4.checked) {
-    image4.classList.add("blue");
-  } else {
-    image4.classList.remove("blue");
-  }
-});
-
-const checkbox5 = document.getElementById("cocido");
-const image5 = document.getElementById("bl-5");
-
-checkbox5.addEventListener("change", function() {
-  if (checkbox5.checked) {
-    image5.classList.add("orange");
-  } else {
-    image5.classList.remove("orange");
-  }
-});
