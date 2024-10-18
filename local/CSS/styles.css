@@ -87,17 +87,20 @@ p{
     top: 0;
     left: 0;
     z-index: 1;
+    vertical-align: middle;
 }
+
+
 
 /* bucket list */
 .img-bl{
     width: 100%;
     background-color: var(--beige);
-    transition: transform .2s; 
+    transition: .2s; 
 }
 
-.img-bl:hover{
-    transform: scale(1.03);
+.img-bl-hover:hover{
+    background-color: rgb(206, 192, 172) ;
 }
 
 .frases-bl{
@@ -106,11 +109,6 @@ p{
     align-items: baseline;
 }
 
-/* .frases-bl{
-    display: flex;
-    flex-direction: column;
-} */
-
 input[type="checkbox"] {
     margin-right: 0.5rem;
     transform: scale(1.5);
@@ -118,7 +116,6 @@ input[type="checkbox"] {
     margin-top: 1rem;
 
 }
-
 
 label{
     font-size: 0.8rem;
@@ -174,10 +171,29 @@ label{
         font-size: 3rem;  
         padding-top: 1em;
         padding-bottom: 0.5em;
+        text-align: center;
 }
 
 #bucketlist .row{
 padding-bottom: 1.5em;
 }
 
+
+/* arte */
+#arte h4{
+    padding-top: 1em;
+}
+
+#art-section{
+    background-color: var(--beige);
+    text-align: center;
+}
+
+h4{
+    font-family: "Courier Prime", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
 

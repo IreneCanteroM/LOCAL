@@ -53,8 +53,10 @@ function toggleColor(checkbox, image, color) {
   });
 
   image.addEventListener("click", function() {
-    this.classList.toggle(color); 
+    this.classList.toggle(color);
+    this.classList.toggle("img-bl-hover");
     checkbox.checked = !checkbox.checked;
+    
   });
 }
 
