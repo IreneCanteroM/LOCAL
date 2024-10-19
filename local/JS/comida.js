@@ -22,3 +22,4 @@ navbarCollapse.addEventListener('show.bs.collapse', function () {
 navbarCollapse.addEventListener('hide.bs.collapse', function () {
     menu.style.borderRadius = "900px";
 });
+
