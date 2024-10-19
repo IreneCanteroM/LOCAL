@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --beige:#ECE1CB;
+    --amarillo: #FDC055;
+    --naranja: #EC8C50;
+    --rojo: #DF6F5B;
+    --azul: #5477A4;
+    --verde: #256063;
+    --turquesa: #7AB6B9;
+  }
+
+  main{
+    padding-top: 74px;
+
+  }
