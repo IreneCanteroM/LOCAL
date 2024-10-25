@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
 
 
 </head>
+
 <body>
   <div class="center">
     <nav id="menu" class="navbar navbar-expand-lg position-fixed">
       <div class="container-fluid">
         <a class="navbar-brand px-3" href="#" id="logo-menu">LOCAL</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -44,178 +54,228 @@
       </div>
     </nav>
   </div>
-    <main>
-        <div id="hero" class="position-relative">
-            <video src="media/video-hero.mp4" autoplay muted loop></video>
-            <h2 class="position-absolute top-50 start-50 translate-middle">Local Issue Nº1<br>Madrid mola mucho</h2>
+  <main>
+    <div id="hero" class="position-relative">
+      <video src="media/video-hero.mp4" autoplay muted loop></video>
+      <h2 class="position-absolute top-50 start-50 translate-middle">Local Issue Nº1<br>Madrid mola mucho</h2>
+    </div>
+
+    <div id="img-parallax">
+    </div>
+
+    <div id="bucketlist" class="container">
+      <h3>Bucket LIST</h3>
+      <div class="row">
+        <div class="col">
+          <img src="media/bl-1.png" class="img-bl img-bl-hover" id="bl-1">
+          <div class="frases-bl">
+            <input type="checkbox" id="calamares" name="calamares">
+            <label for="calamares"> He comido bocadillo de calamares</label>
+          </div>
         </div>
 
-        <div id="img-parallax">
+        <div class="col">
+          <img src="media/bl-2.png" class="img-bl img-bl-hover" id="bl-2">
+          <div class="frases-bl">
+            <input type="checkbox" id="jamon" name="jamon">
+            <label for="jamon"> He probado el jamón ibérico</label>
+          </div>
         </div>
 
-        <div id="bucketlist" class="container">
-          <h3>Bucket LIST</h3>
-          <div class="row">
-            <div class="col">
-              <img src="media/bl-1.png" class="img-bl img-bl-hover" id="bl-1">
-              <div class="frases-bl">
-                  <input type="checkbox" id="calamares" name="calamares">
-                  <label for="calamares"> He comido bocadillo de calamares</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-2.png" class="img-bl img-bl-hover" id="bl-2">
-              <div class="frases-bl">
-                  <input type="checkbox" id="jamon" name="jamon">
-                  <label for="jamon"> He probado el jamón ibérico</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-3.png" class="img-bl img-bl-hover" id="bl-3">
-              <div class="frases-bl">
-                <input type="checkbox" id="churros" name="churros">
-                <label for="churros"> He desayunado churros con chocolate</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-4.png" class="img-bl img-bl-hover" id="bl-4">
-              <div class="frases-bl">
-                <input type="checkbox" id="rastro" name="rastro">
-                <label for="rastro"> He comprado en el Rastro</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-5.png" class="img-bl img-bl-hover" id="bl-5">
-              <div class="frases-bl">
-                <input type="checkbox" id="cocido" name="cocido">
-                <label for="cocido"> He comido cocido madrileño</label>
-              </div>
-            </div>
+        <div class="col">
+          <img src="media/bl-3.png" class="img-bl img-bl-hover" id="bl-3">
+          <div class="frases-bl">
+            <input type="checkbox" id="churros" name="churros">
+            <label for="churros"> He desayunado churros con chocolate</label>
           </div>
-          <div class="row">
-            <div class="col">
-              <img src="media/bl-6.png" class="img-bl img-bl-hover" id="bl-6">
-              <div class="frases-bl">
-                <input type="checkbox" id="granvia" name="granvia">
-                <label for="granvia"> He paseado por Gran Vía</label>
-              </div>
-            </div>
-            <div class="col">
-              <img src="media/bl-7.png" class="img-bl img-bl-hover" id="bl-7">
-              <div class="frases-bl">
-                <input type="checkbox" id="tortilla" name="tortilla">
-                <label for="tortilla"> He comido tortilla de patata</label>
-              </div>
-            </div>
-            <div class="col">
-              <img src="media/bl-8.png" class="img-bl img-bl-hover" id="bl-8">
-              <div class="frases-bl">
-                <input type="checkbox" id="torres" name="torres">
-                <label for="torres"> He visto las cuatro torres</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-9.png" class="img-bl img-bl-hover" id="bl-9">
-              <div class="frases-bl">
-                <input type="checkbox" id="palacio" name="palacio">
-                <label for="palacio"> He visitado el Palacio Real</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-10.png" class="img-bl img-bl-hover" id="bl-10">
-              <div class="frases-bl">
-                <input type="checkbox" id="retiro" name="retiro">
-                <label for="retiro"> He paseado por el Retiro</label>
-              </div>
-            </div>
-
-          </div>
-          <div class="row">
-            <div class="col">
-              <img src="media/bl-11.png" class="img-bl img-bl-hover" id="bl-11">
-              <div class="frases-bl">
-                <input type="checkbox" id="metro" name="metro">
-                <label for="metro"> He montado en Metro</label>
-              </div>
-            </div>
-            <div class="col">
-              <img src="media/bl-12.png" class="img-bl img-bl-hover" id="bl-12">
-              <div class="frases-bl">
-                <input type="checkbox" id="prado" name="prado">
-                <label for="prado"> He visitado el Museo del Prado</label>
-              </div>
-            </div>
-            <div class="col">
-              <img src="media/bl-13.png" class="img-bl img-bl-hover" id="bl-13">
-              <div class="frases-bl">
-                <input type="checkbox" id="plaza" name="plaza">
-                <label for="plaza"> He ido a la Plaza Mayor</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-14.png" class="img-bl img-bl-hover" id="bl-14">
-              <div class="frases-bl">
-                <input type="checkbox" id="oso" name="oso">
-                <label for="oso"> He visto el Oso y el madroño</label>
-              </div>
-            </div>
-
-            <div class="col">
-              <img src="media/bl-15.png" class="img-bl img-bl-hover" id="bl-15">
-              <div class="frases-bl">
-                <input type="checkbox" id="puerta" name="puerta">
-                <label for="puerta"> He visto la Puerta de Alcalá</label>
-              </div>
-            </div>
-
-          </div>
-            
         </div>
 
-<section id="art-section">
-        <div id="arte" class="container">
-          <h4>arte</h4>
-          <div class="row">
-            <div class="col">
-              <img src="" alt="">
-              <h5>Entrevista a Ana Jarén</h5>
+        <div class="col">
+          <img src="media/bl-4.png" class="img-bl img-bl-hover" id="bl-4">
+          <div class="frases-bl">
+            <input type="checkbox" id="rastro" name="rastro">
+            <label for="rastro"> He comprado en el Rastro</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="media/bl-5.png" class="img-bl img-bl-hover" id="bl-5">
+          <div class="frases-bl">
+            <input type="checkbox" id="cocido" name="cocido">
+            <label for="cocido"> He comido cocido madrileño</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="media/bl-6.png" class="img-bl img-bl-hover" id="bl-6">
+          <div class="frases-bl">
+            <input type="checkbox" id="granvia" name="granvia">
+            <label for="granvia"> He paseado por Gran Vía</label>
+          </div>
+        </div>
+        <div class="col">
+          <img src="media/bl-7.png" class="img-bl img-bl-hover" id="bl-7">
+          <div class="frases-bl">
+            <input type="checkbox" id="tortilla" name="tortilla">
+            <label for="tortilla"> He comido tortilla de patata</label>
+          </div>
+        </div>
+        <div class="col">
+          <img src="media/bl-8.png" class="img-bl img-bl-hover" id="bl-8">
+          <div class="frases-bl">
+            <input type="checkbox" id="torres" name="torres">
+            <label for="torres"> He visto las cuatro torres</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="media/bl-9.png" class="img-bl img-bl-hover" id="bl-9">
+          <div class="frases-bl">
+            <input type="checkbox" id="palacio" name="palacio">
+            <label for="palacio"> He visitado el Palacio Real</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="media/bl-10.png" class="img-bl img-bl-hover" id="bl-10">
+          <div class="frases-bl">
+            <input type="checkbox" id="retiro" name="retiro">
+            <label for="retiro"> He paseado por el Retiro</label>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="media/bl-11.png" class="img-bl img-bl-hover" id="bl-11">
+          <div class="frases-bl">
+            <input type="checkbox" id="metro" name="metro">
+            <label for="metro"> He montado en Metro</label>
+          </div>
+        </div>
+        <div class="col">
+          <img src="media/bl-12.png" class="img-bl img-bl-hover" id="bl-12">
+          <div class="frases-bl">
+            <input type="checkbox" id="prado" name="prado">
+            <label for="prado"> He visitado el Museo del Prado</label>
+          </div>
+        </div>
+        <div class="col">
+          <img src="media/bl-13.png" class="img-bl img-bl-hover" id="bl-13">
+          <div class="frases-bl">
+            <input type="checkbox" id="plaza" name="plaza">
+            <label for="plaza"> He ido a la Plaza Mayor</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="media/bl-14.png" class="img-bl img-bl-hover" id="bl-14">
+          <div class="frases-bl">
+            <input type="checkbox" id="oso" name="oso">
+            <label for="oso"> He visto el Oso y el madroño</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="media/bl-15.png" class="img-bl img-bl-hover" id="bl-15">
+          <div class="frases-bl">
+            <input type="checkbox" id="puerta" name="puerta">
+            <label for="puerta"> He visto la Puerta de Alcalá</label>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <section id="art-section">
+      <div id="arte" class="container">
+        <h4>arte</h4>
+        <div class="row">
+          <div class="col">
+            <div class="img-cont">
+              <img src="media/anajaren-banner.jpg" alt="Ana Jarén" class="img-banner img-zoom">
             </div>
+            <h5 class="pr-articulo">Entrevista a Ana Jarén</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="img-cont">
+              <img src="media/sorolla.jpg" alt="Museo Sorolla" class="img-square img-zoom">
             </div>
+            <h5 class="sc-articulo">Seis datos curiosos sobre el Museo Sorolla</h5>
+          </div>
 
-            <div class="row">
-              <div class="col">
-                <img src="" alt="">
-                <h5>Seis datos curiosos sobre el Museo Sorolla</h5>
+          <div class="col">
+            <div class="img-cont">
+              <img src="media/obras.jpg" alt="Obras maestras" class="img-square img-zoom">
+            </div>
+            <h5 class="sc-articulo">10 obras maestras</h5>
+          </div>
+
+          <div class="col">
+            <div class="img-cont">
+              <img src="media/edificios.jpg" alt="Edificios emblemáticos" class="img-square img-zoom">
+            </div>
+            <h5 class="sc-articulo">Los edificios más emblemáticos de Madrid</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ocio-section">
+      <div id="ocio" class="container">
+        <h4>ocio</h4>
+        <div class="row">
+          <div class="col">
+            <div class="orange flex">
+              <div class="img-cont">
+                <img src="media/restaurantes.jpg" alt="Edificios emblemáticos" class="img-square img-zoom">
               </div>
+              <h5 class="pr-articulo">Seis restaurantes que deberías conocer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
 
-              
-
-              <div class="col">
-                <img src="" alt="">
-                <h5>10 obras maestras</h5>
+          <div class="col">
+            <div class="red flex">
+              <div class="img-cont">
+                <img src="media/restaurantes.jpg" alt="Edificios emblemáticos" class="img-square img-zoom">
               </div>
+              <h5 class="">Dónde hacerte los mejores selfies de Madrid</h5>
+            </div>
+          </div>
 
-  
-              <div class="col">
-                <img src="" alt="">
-                <h5>Los edificios más emblemáticos de Madrid</h5>
+          <div class="col">
+            <div class="ocre flex">
+              <div class="img-cont">
+                <img src="media/restaurantes.jpg" alt="Edificios emblemáticos" class="img-square img-zoom">
               </div>
-              </div>
-            </section>
-    </main>
-    <footer>
+              <h5 class="">Curiosidades sobre el Metro</h5>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
 
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </footer>
 
-    <script src="JS/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+
+  <script src="JS/script.js"></script>
 </body>
+
 </html>
