@@ -28,8 +28,9 @@ navbarCollapse.addEventListener('hide.bs.collapse', function () {
 // Solo ocurre en el index.html
 // tenemos que detectar en que página estamos
 // SI estamos en index.html todo este bloque de código se tiene que activar
+const currentFile = window.location.pathname.split("/").pop();
 
-if () {
+if (currentFile === "index.html") {
   // checkboxes
   const items = [
     { checkboxId: "calamares", imageId: "bl-1", color: "red" },
