@@ -44,14 +44,14 @@ a:link {
 }
 
 #logo-menu{
-    font-family: "Poppins", system-ui;
+    font-family: "Poppins", systrem-ui;
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
 }
 
-.nav-item{
-    font-family: "Courier Prime", system-ui;
+.nav-itrem{
+    font-family: "Courier Prime", systrem-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
@@ -72,7 +72,7 @@ a:link {
 .scrolled{
     width: 80vw;
     border-radius: 90px;
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 
@@ -255,23 +255,19 @@ h4{
 #ocio .pr-articulo{
     color: white;
     padding-bottom: 0;
-    padding-left: 1em;
+    padding-left: 1rem;
 }
 .flex{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-itrems: center;
 
-}
-
-#ocio .row{
-    margin-bottom: 2em;
 }
 
 .sc-articulo-ocio{
     color: white;
     font-family: "Source Serif 4", serif;
-  }
+}
 
 
 /* RESTAURANTES */
@@ -301,5 +297,6 @@ h4{
     width: 100%;
     height: 100%;
 }
+
 
 
