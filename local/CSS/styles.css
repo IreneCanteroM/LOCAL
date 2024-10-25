@@ -268,3 +268,16 @@ h4{
     margin-bottom: 2em;
 }
 
+
+/* RESTAURANTES */
+
+#pr-img{
+    width: 50%;
+    height: 50%;
+    top: 0;
+  }
+  
+  #pr-img img{
+    width: 50%;
+    height: 50%;
+  }
