@@ -37,6 +37,12 @@
     z-index: 999;
 }
 
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 a:visited,
 a:link {
     text-decoration: none;
@@ -260,7 +266,7 @@ h4{
 .flex{
     display: flex;
     flex-direction: row;
-    align-itrems: center;
+    align-items: center;
 
 }
 
@@ -293,10 +299,29 @@ h4{
     margin: 6%;
   } 
 
-#opciones{
-    width: 100%;
+
+  #restaurantes_mini{
+    padding-top: 1em;
+  }
+
+  #tikitako_mini{
+    background-color: var(--rojo);
+    max-height: fit-content;
+  }
+
+  #tikitako_mini img{
     height: 100%;
+    width: 100%;
+  }
+
+#img-prueba{
+    height: 100%;
+    width: 100%;
 }
 
+#img-prueba img{
+    height: 100%;
+    width: 100%;
+}
 
 
