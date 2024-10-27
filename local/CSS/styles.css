@@ -45,6 +45,7 @@
 
 a:visited,
 a:link {
+    font-family: "Courier Prime", monospace;
     text-decoration: none;
     color: black;
 }
@@ -304,24 +305,178 @@ h4{
     padding-top: 1em;
   }
 
+  #restaurantes_mini h6{
+    padding-top: 1em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
   #tikitako_mini{
     background-color: var(--rojo);
     max-height: fit-content;
   }
 
-  #tikitako_mini img{
-    height: 100%;
-    width: 100%;
+  #tikitako_mini #tikitako_mini_img{
+    height: 78%;
+    width: 82%;
   }
 
-#img-prueba{
+  #tabernas_mini{
+    background-color: var(--verde);
+    width: 100%;
+    height: 69%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;      
+    overflow: hidden;         
+    margin: auto;
+  }
+
+  #tabernas_mini #tabernas_mini_img{
+    width: 82%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #Xiongzai_mini{
+    background-color: var(--azul);
+    width: 100%;
+    height: 69%;
+    max-width: 300px;         
+    aspect-ratio: 1 / 1;      
+    overflow: hidden;         
+    margin: auto;
+  }
+
+  #Xiongzai_mini #Xiongzai_mini_img{
+    width: 82%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #belmondo_mini{
+    background-color: var(--naranja);
+    width: 100%;
+    height: 69%;
+    max-width: 300px;         
+    aspect-ratio: 1 / 1;      
+    overflow: hidden;         
+    margin: auto;
+  }
+
+  #belmondo_mini #belmondo_mini_img{
+    width: 82%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #macao_mini{
+    background-color: var(--amarillo);
+    width: 100%;
+    height: 69%;
+    max-width: 300px;         
+    aspect-ratio: 1 / 1;      
+    overflow: hidden;         
+    margin: auto;
+  }
+
+  #macao_mini #macao_mini_img{
+    width: 82%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #macareno_mini{
+    background-color: var(--turquesa);
+    width: 100%;
+    height: 69%;
+    max-width: 300px;        
+    aspect-ratio: 1 / 1;     
+    overflow: hidden;         
+    margin: auto;
+  }
+
+  #macareno_mini #macareno_mini_img{
+    width: 82%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .black-line-hr {
+    border: none;
+    border-top: 4px solid black;
+    margin: 16px 0;
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
+
+  #tikitako{
+    background-color: var(--beige);
     height: 100%;
     width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+#tikitako h6{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 65%;
+    position: relative;
+    left: 14em;
 }
 
-#img-prueba img{
-    height: 100%;
+  #tikitako-1 {
     width: 100%;
+    height: 100%;
+    max-width: 900px;
+    aspect-ratio: 5 / 2;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  #tikitako-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+#tikitako_pics{
+    width: 81%;
+    height: 40%;
+    /* max-width: 303px; */
+    /* aspect-ratio: 1 / 1; */
+    overflow: hidden;
+    margin: auto;
 }
 
+#tikitako_pics #tiki_tako_3{
+    width: 100%;
+    height: 76%;
+    object-fit: cover;
+}
 
+#tikitako_pics #tiki_tako_2{
+    width: 100%;
+    height: 76%;
+    object-fit: cover;
+}
+
+#tikitako_pics #tiki_tako_4{
+    width: 100%;
+    height: 76%;
+    object-fit: cover;
+}
+
+#tikitako_text{
+    background-color: var(--rojo);
+    margin-left: 5em;
+    width: 84%;
+}
+
+#tikitako_text p{
+    color: var(--beige);
+    font-size: 16px;
+    width: 80%;
+    margin-left: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
