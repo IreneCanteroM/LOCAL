@@ -545,7 +545,7 @@ font-size: 18px;
 }
 
 #tabernas_text{
-background-color: var(--rojo);
+background-color: var(--verde);
 margin-left: 10em;
 width: 78%;
 position: relative;
@@ -553,6 +553,310 @@ bottom: 3em;
 }
 
 #tabernas_text p{
+color: var(--beige);
+font-size: 16px;
+width: 100%;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 1em;
+padding-bottom: 1em;
+text-align: left;
+}
+
+/* XIONGZAI */
+
+#Xiongzai{
+  background-color: var(--beige);
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#Xiongzai h6{
+margin-top: 2em;
+margin-bottom: 2em;
+width: 65%;
+position: relative;
+left: 9em;
+text-align: left;
+font-size: 18px;
+}
+
+#Xiongzai-1 {
+  width: 78%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#Xiongzai-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#Xiongzai_pics{
+  width: 81%;
+  height: 40%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 6em;
+}
+
+#Xiongzai_pics #Xiongzai_3{
+  width: 100%;
+  height: 116%;
+  object-fit: cover;
+}
+
+#Xiongzai_pics #Xiongzai_2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#Xiongzai_pics #Xiongzai_4{
+  width: 100%;
+  height: 102%;
+  object-fit: cover;
+}
+
+#Xiongzai_text{
+background-color: var(--azul);
+margin-left: 10em;
+width: 78%;
+position: relative;
+bottom: 3em;
+}
+
+#Xiongzai_text p{
+color: var(--beige);
+font-size: 16px;
+width: 100%;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 1em;
+padding-bottom: 1em;
+text-align: left;
+}
+
+/* BELMONDO*/
+
+#belmondo{
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#belmondo h6{
+margin-top: 2em;
+margin-bottom: 2em;
+width: 65%;
+position: relative;
+left: 9em;
+text-align: left;
+font-size: 18px;
+}
+
+#belmondo-1 {
+  width: 77%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#belmondo-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#belmondo_pics{
+  width: 81%;
+  height: 40%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#belmondo_pics #belmondo_2{
+  width: 100%;
+  height: 76%;
+  object-fit: cover;
+}
+
+#belmondo_pics #belmondo_3{
+  width: 100%;
+  height: 76%;
+  object-fit: cover;
+}
+
+#belmondo_pics #belmondo_4{
+  width: 100%;
+  height: 76%;
+  object-fit: cover;
+}
+
+#belmondo_text{
+background-color: var(--naranja);
+margin-left: 10em;
+width: 78%;
+position: relative;
+bottom: 3em;
+}
+
+#belmondo_text p{
+color: var(--beige);
+font-size: 16px;
+width: 100%;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 1em;
+padding-bottom: 1em;
+text-align: left;
+}
+
+/* LADY_MACAO*/
+
+#macao{
+  background-color: var(--beige);
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#macao h6{
+margin-top: 2em;
+margin-bottom: 2em;
+width: 65%;
+position: relative;
+left: 9em;
+text-align: left;
+font-size: 18px;
+}
+
+#macao-1 {
+  width: 77%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#macao-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macao_pics{
+  width: 81%;
+  height: 40%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+#macao_pics #macao_2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macao_pics #macao_3{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macao_pics #macao_4{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macao_text{
+background-color: var(--amarillo);
+margin-left: 10em;
+width: 78%;
+position: relative;
+bottom: 3em;
+}
+
+#macao_text p{
+font-size: 16px;
+width: 100%;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 1em;
+padding-bottom: 1em;
+text-align: left;
+}
+
+/* CASA MACARENO*/
+
+#macareno{
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#macareno h6{
+margin-top: 2em;
+margin-bottom: 2em;
+width: 65%;
+position: relative;
+left: 9em;
+text-align: left;
+font-size: 18px;
+}
+
+#macareno-1 {
+  width: 77%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#macareno-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macareno_pics{
+  width: 81%;
+  height: 40%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+#macareno_pics #macareno_2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macareno_pics #macareno_3{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macareno_pics #macareno_4{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#macareno_text{
+background-color: var(--turquesa);
+margin-left: 10em;
+width: 78%;
+position: relative;
+bottom: 3em;
+}
+
+#macareno_text p{
 color: var(--beige);
 font-size: 16px;
 width: 100%;
