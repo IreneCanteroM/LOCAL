@@ -50,7 +50,7 @@ a:link {
     color: black;
 }
 
-#logo-menu{
+#logo-menu, #logo-footer{
     font-family: "Poppins", system-ui;
     font-weight: 700;
     font-style: normal;
@@ -293,7 +293,28 @@ h4{
   margin: 0 !important;
 }
 
+/* cultura */
+#cultura .img-cont{
+  width: 100%;
+  border-right: 10px solid white;
+}
 
+#cultura h6{
+  font-family: "Source Serif 4", serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* footer */
+
+footer{
+  background-color: black;
+}
+
+#logo-footer{
+  text-align: center !important;
+  color: white;
+}
 /* RESTAURANTES */
 
 #pr-img{
