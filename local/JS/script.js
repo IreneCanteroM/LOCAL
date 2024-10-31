@@ -81,6 +81,33 @@ if (currentFile === "index.html") {
     loop: true
   });
     
+  // slideshow
+var i = 0;
+var images = [];
+var slideTime = 2000;
+
+images[0] = "media/slide-1.jpg";
+images[1] = 'media/slide-2.jpg';
+images[2] = 'media/slide-3.jpg';
+images[3] = 'media/slide-4.jpg';
+images[4] = 'media/slide-5.jpg';
+
+function changePicture() {
+    document.getElementById("slideshow").style.backgroundImage = "url(" + images[i] + ")";
+
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+    setTimeout(changePicture, slideTime);
+}
+
+window.onload = function () {
+    "use strict";
+    changePicture();
+};
+
 }  
 
 
