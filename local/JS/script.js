@@ -72,6 +72,15 @@ if (currentFile === "index.html") {
     const image = document.getElementById(item.imageId);
     toggleColor(checkbox, image, item.color);
   });
+
+  var typed2 = new Typed('#typed', {
+    strings: ['Local Issue I', 'Madrid mola mucho'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    fadeOut: true,
+    loop: true
+  });
+    
 }  
 
 
