@@ -307,6 +307,15 @@ h4{
   
 }
 
+#ocio .row .col, .pr-size{
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#ocio .row .col:hover, .pr-size:hover{
+  background-color: rgb(181, 160, 132);
+}
+
 /* cultura */
 #cultura .img-cont{
   width: 100%;
