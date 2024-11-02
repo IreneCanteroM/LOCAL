@@ -143,8 +143,6 @@ p{
 }
 
 
-
-
 /* bucket list */
 .img-bl{
     width: 100%;
@@ -326,15 +324,6 @@ h4{
   margin: 0 !important;
 }
 
-#slideshow{
-  width: 100%;
-  height: 80vh;
-  background-color: black;
-  background-position: center;
-  background-size: cover;
-  
-}
-
 #ocio .row .col, .pr-size{
   transition-duration: 0.3s;
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -342,6 +331,15 @@ h4{
 
 #ocio .row .col:hover, .pr-size:hover{
   background-color: rgb(181, 160, 132);
+}
+/* carrusel  */
+.carousel{
+  width: 100% !important;
+  border: 6px solid var(--beige);
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: var(--beige);
 }
 
 /* cultura */
