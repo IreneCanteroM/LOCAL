@@ -23,6 +23,16 @@ navbarCollapse.addEventListener('hide.bs.collapse', function () {
     menu.style.borderRadius = "900px";
 });
 
+$(window).scroll(function () {
+  scrollIndicator();
+});
+
+function scrollIndicator() {
+  var winScroll = $(document).scrollTop();
+  var height = $(document).height() - $(window).height();
+  var scrolled = (winScroll / height) * 100;
+  $("#bar").width(scrolled + "%");
+}
 
 
 // Solo ocurre en el index.html
@@ -73,6 +83,7 @@ if (currentFile === "index.html") {
     toggleColor(checkbox, image, item.color);
   });
 
+  // typed
   var typed2 = new Typed('#typed', {
     strings: ['Local Issue I', 'Madrid mola mucho'],
     typeSpeed: 0,
@@ -82,33 +93,35 @@ if (currentFile === "index.html") {
   });
     
   // slideshow
-var i = 0;
-var images = [];
-var slideTime = 2000;
+  $(document).ready(function() {
+    var i = 0;
+    var images = [
+        "media/slide-1.jpg",
+        "media/slide-2.jpg",
+        "media/slide-3.jpg",
+        "media/slide-4.jpg",
+        "media/slide-5.jpg"
+    ];
+    var slideTime = 2000;
 
-images[0] = "media/slide-1.jpg";
-images[1] = 'media/slide-2.jpg';
-images[2] = 'media/slide-3.jpg';
-images[3] = 'media/slide-4.jpg';
-images[4] = 'media/slide-5.jpg';
+    function changePicture() {
+        $("#slideshow").css("background-image", "url(" + images[i] + ")");
 
-function changePicture() {
-    document.getElementById("slideshow").style.backgroundImage = "url(" + images[i] + ")";
-
-    if (i < images.length - 1) {
-        i++;
-    } else {
-        i = 0;
+        if (i < images.length - 1) {
+            i++;
+        } else {
+            i = 0;
+        }
+        setTimeout(changePicture, slideTime);
     }
-    setTimeout(changePicture, slideTime);
-}
 
-window.onload = function () {
-    "use strict";
     changePicture();
+});
+
 };
 
-}  
+
+
 
 
 

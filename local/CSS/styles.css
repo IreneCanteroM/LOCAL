@@ -21,6 +21,22 @@
     padding-top: 74px;
 
   }
+/* scroll indicator */
+  .progress-container {
+    width: 100%;
+    height: 6px;
+    background: burlywood;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.progress-bar {
+    height: 6px;
+    background: var(--verde);
+    width: 0%;
+}
+
 /* menu */
 
 #menu{
@@ -59,6 +75,10 @@ a:link {
 #logo-menu:hover{
   text-decoration: underline;
   text-decoration-color: white;
+}
+
+#logo-footer:hover{
+  text-decoration: underline;
 }
 
 .nav-item{
