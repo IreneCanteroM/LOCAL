@@ -34,6 +34,16 @@ function scrollIndicator() {
   $("#bar").width(scrolled + "%");
 }
 
+function playAnimation()
+{
+    document.getElementById('flecha').src = "media/flecha.gif";
+    document.getElementById('flecha').style.filter = 'sepia(41%) brightness(64%) hue-rotate(23deg) saturate(84%)';
+}
+function showStatic()
+{
+    document.getElementById('flecha').src = "media/flecha-estatica.jpg";
+    document.getElementById('flecha').style.filter = 'none';
+}
 
 // Solo ocurre en el index.html
 // tenemos que detectar en que página estamos

@@ -363,6 +363,7 @@ h4{
   bottom: 1em;
   right: 2em;
   z-index: 900;
+  transition: 0.3s;
 }
 /* footer */
 

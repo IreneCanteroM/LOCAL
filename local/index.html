@@ -235,14 +235,16 @@
       <div id="ocio" class="container">
         <h4>ocio</h4>
         <div class="row">
-          <div class="col g-0">
-            <div class="orange d-flex align-items-center pr-size">
-              <div class="img-cont">
-                <img src="media/restaurantes.jpg" alt="Edificios emblemáticos" class="img-square img-zoom">
+          <a href="restaurantes.html">
+            <div class="col g-0">
+              <div class="orange d-flex align-items-center pr-size">
+                <div class="img-cont">
+                  <img src="media/restaurantes.jpg" alt="Edificios emblemáticos" class="img-square img-zoom">
+                </div>
+                <h5 class="pr-articulo">Seis restaurantes que deberías conocer</h5>
               </div>
-              <h5 class="pr-articulo">Seis restaurantes que deberías conocer</h5>
             </div>
-          </div>
+          </a>
         </div>
         <br>
         <div class="row">
@@ -277,9 +279,6 @@
           </div>
         </div>
         <br>
-        <!-- <div class="row">
-          <div id="slideshow"></div>
-        </div> -->
         <div id="carouselExampleIndicators" class="carousel slide g-0">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -394,7 +393,8 @@
     </section>
     <button type="button" class="btn">
       <a href="#">
-        <img src="media/flecha.gif" alt="Sube" id="flecha">
+        <img src="media/flecha-estatica.jpg" alt="Sube" id="flecha" onMouseOver="playAnimation()"
+          onmouseout="showStatic()">
       </a>
     </button>
   </main>
