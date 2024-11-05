@@ -44,6 +44,15 @@ function showStatic()
     document.getElementById('flecha').src = "media/flecha-estatica.jpg";
     document.getElementById('flecha').style.filter = 'none';
 }
+// menu movil
+const menuItems = document.querySelectorAll('.navbar-nav .nav-item');
+
+menuItems.forEach(item => {
+  item.addEventListener('click', () => {
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    navbarCollapse.classList.remove('show');
+  });
+});
 
 // Solo ocurre en el index.html
 // tenemos que detectar en que página estamos

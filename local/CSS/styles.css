@@ -66,7 +66,7 @@ a:link {
     color: black;
 }
 
-#logo-menu, #logo-footer{
+#logo-menu, #logo-foote, #logo-menu-movil{
     font-family: "Poppins", system-ui;
     font-weight: 700;
     font-style: normal;
@@ -383,6 +383,9 @@ footer h5{
   font-size: 1.1rem;
   text-align: center;
   font-family: "Source Serif 4", serif;
+}
+#logo-menu-movil{
+  display: none;
 }
 
 
@@ -866,4 +869,88 @@ padding-right: 2em;
 padding-top: 1em;
 padding-bottom: 1em;
 text-align: left;
+}
+
+/* media queries index */
+@media screen and (max-width: 992px){
+  .disappear{
+    display: none;
+  }
+
+  .art-pr{
+    width: 100%;
+  }
+
+  #arte .sc-articulo{
+    font-size: 1rem;
+  }
+
+  .art-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .art-col{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #arte .img-square{
+    width: fit-content;
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 768px){
+
+  /* menu responsive */
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--menu);
+    height: 100vh;
+    overflow-y: auto;
+    transition: 0.3s ease;
+
+  }
+
+  #logo-menu-movil{
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .close-menu {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+/* hero */
+  #hero video{
+    width: 100vw;
+  }
+
+  #hero h2{
+    font-size: 2rem;
+  }
+
+  #img-parallax{
+    height: 10vh;
+  }
+
+  .disappear-sm{
+    display: none;
+  }
 }
