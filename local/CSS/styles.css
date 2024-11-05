@@ -17,10 +17,10 @@
     --menu: #D2C5AA;
   }
 
-  main{
-    padding-top: 74px;
+main{
+  padding-top: 74px;
+}
 
-  }
 /* scroll indicator */
   .progress-container {
     width: 100%;
@@ -392,23 +392,43 @@ footer h5{
 /* RESTAURANTES */
 
 #pr-img{
-    width: 100%;
-    height: 14%;
-    top: 0;
-    background-color: var(--naranja);
-  }
-  
-  #pr-img img{
-    width: 40%;
-    height: 25%;
-  }
+  width: 100%;
+  height: 14%;
+  top: 0;
+  background-color: var(--naranja);
+}
 
-  #pr-img h2{
-    color: var(--beige);
-    font-family: "Source Serif 4", serif;  
-    margin: 6%;
-  } 
+#pr-img img{
+  width: 40%;
+  height: 25%;
+}
 
+#pr-img h2{
+  color: var(--beige);
+  font-family: "Source Serif 4", serif;  
+  margin: 6%;
+} 
+
+main p{
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+#restaurantes h6{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 65%;
+  position: relative;
+  left: 9em;
+  text-align: left;
+  font-size: 18px;
+}
 
   #restaurantes_mini{
     padding-top: 5em;
@@ -419,10 +439,15 @@ footer h5{
     font-family: 'Courier New', Courier, monospace;
   }
 
+  #restaurantes_mini a{
+    width: 100%;
+    height: 100%;
+  }
+
   #tikitako_mini{
     background-color: var(--rojo);
-    width: 98%;
-    height: 69%;
+    width: 100%;
+    height: 80%;
     max-width: 300px;
     aspect-ratio: 1 / 1;
     overflow: hidden;
@@ -431,14 +456,14 @@ footer h5{
 
   #tikitako_mini #tikitako_mini_img{
     height: 100%;
-    width: 81%;
+    width: 80%;
     object-fit: cover;
   }
 
   #tabernas_mini{
     background-color: var(--verde);
     width: 100%;
-    height: 69%;
+    height: 80%;
     max-width: 300px;
     aspect-ratio: 1 / 1;      
     overflow: hidden;         
@@ -446,7 +471,7 @@ footer h5{
   }
 
   #tabernas_mini #tabernas_mini_img{
-    width: 82%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
   }
@@ -454,7 +479,7 @@ footer h5{
   #Xiongzai_mini{
     background-color: var(--azul);
     width: 100%;
-    height: 69%;
+    height: 80%;
     max-width: 300px;         
     aspect-ratio: 1 / 1;      
     overflow: hidden;         
@@ -462,7 +487,7 @@ footer h5{
   }
 
   #Xiongzai_mini #Xiongzai_mini_img{
-    width: 82%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
   }
@@ -470,7 +495,7 @@ footer h5{
   #belmondo_mini{
     background-color: var(--naranja);
     width: 100%;
-    height: 69%;
+    height: 80%;
     max-width: 300px;         
     aspect-ratio: 1 / 1;      
     overflow: hidden;         
@@ -478,7 +503,7 @@ footer h5{
   }
 
   #belmondo_mini #belmondo_mini_img{
-    width: 82%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
   }
@@ -486,7 +511,7 @@ footer h5{
   #macao_mini{
     background-color: var(--amarillo);
     width: 100%;
-    height: 69%;
+    height: 80%;
     max-width: 300px;         
     aspect-ratio: 1 / 1;      
     overflow: hidden;         
@@ -494,7 +519,7 @@ footer h5{
   }
 
   #macao_mini #macao_mini_img{
-    width: 82%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
   }
@@ -502,7 +527,7 @@ footer h5{
   #macareno_mini{
     background-color: var(--turquesa);
     width: 100%;
-    height: 69%;
+    height: 80%;
     max-width: 300px;        
     aspect-ratio: 1 / 1;     
     overflow: hidden;         
@@ -510,7 +535,7 @@ footer h5{
   }
 
   #macareno_mini #macareno_mini_img{
-    width: 82%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
   }
@@ -526,41 +551,29 @@ footer h5{
 
 /* TIKITAKO */
 
-  #tikitako{
-    background-color: var(--beige);
-    height: 100%;
-    width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-#tikitako h6{
-  margin-top: 2em;
-  margin-bottom: 2em;
-  width: 65%;
-  position: relative;
-  left: 9em;
-  text-align: left;
-  font-size: 18px;
+#tikitako{
+  background-color: var(--beige);
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-  #tikitako-1 {
-    width: 77%;
-    height: 100%;
-    overflow: hidden;
-    margin: auto;
-  }
-
-  #tikitako-1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
 #tikitako_pics{
-    width: 81%;
-    height: 40%;
-    overflow: hidden;
-    margin: auto;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 5em;
+}
+
+#tikitako_pics img{
+  width: 100%;
+  height: 100%;
+}
+
+#tikitako-1 {
+  width: 77%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
 }
 
 #tikitako_text{
@@ -571,17 +584,6 @@ footer h5{
   bottom: 3em;
 }
 
-#tikitako_text p{
-  color: var(--beige);
-  font-size: 16px;
-  width: 100%;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  text-align: left;
-}
-
 /* TABERNAS */
 
 #tabernas{
@@ -590,32 +592,20 @@ footer h5{
   font-family: 'Courier New', Courier, monospace;
 }
 
-#tabernas h6{
-margin-top: 2em;
-margin-bottom: 2em;
-width: 65%;
-position: relative;
-left: 9em;
-text-align: left;
-font-size: 18px;
+#tabernas_pics{
+  width: 80%;
+  height: 100%;
+  margin-bottom: 5em;
+}
+
+#tabernas_pics img{
+  width: 100%;
+  height: 100%;
 }
 
 #tabernas-1 {
   width: 77%;
   height: 100%;
-  overflow: hidden;
-  margin: auto;
-}
-
-#tabernas-1 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#tabernas_pics{
-  width: 81%;
-  height: 40%;
   overflow: hidden;
   margin: auto;
 }
@@ -628,17 +618,6 @@ position: relative;
 bottom: 3em;
 }
 
-#tabernas_text p{
-color: var(--beige);
-font-size: 16px;
-width: 100%;
-padding-left: 2em;
-padding-right: 2em;
-padding-top: 1em;
-padding-bottom: 1em;
-text-align: left;
-}
-
 /* XIONGZAI */
 
 #Xiongzai{
@@ -648,35 +627,22 @@ text-align: left;
   font-family: 'Courier New', Courier, monospace;
 }
 
-#Xiongzai h6{
-margin-top: 2em;
-margin-bottom: 2em;
-width: 65%;
-position: relative;
-left: 9em;
-text-align: left;
-font-size: 18px;
+#Xiongzai_pics{
+  width: 80%;
+  height: 100%;
+  margin-bottom: 5em;
+}
+
+#Xiongzai_pics img{
+  width: 100%;
+  height: 100%;
 }
 
 #Xiongzai-1 {
-  width: 78%;
+  width: 77%;
   height: 100%;
   overflow: hidden;
   margin: auto;
-}
-
-#Xiongzai-1 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#Xiongzai_pics{
-  width: 81%;
-  height: 40%;
-  overflow: hidden;
-  margin: auto;
-  margin-bottom: 6em;
 }
 
 #Xiongzai_text{
@@ -687,17 +653,6 @@ position: relative;
 bottom: 3em;
 }
 
-#Xiongzai_text p{
-color: var(--beige);
-font-size: 16px;
-width: 100%;
-padding-left: 2em;
-padding-right: 2em;
-padding-top: 1em;
-padding-bottom: 1em;
-text-align: left;
-}
-
 /* BELMONDO*/
 
 #belmondo{
@@ -706,32 +661,20 @@ text-align: left;
   font-family: 'Courier New', Courier, monospace;
 }
 
-#belmondo h6{
-margin-top: 2em;
-margin-bottom: 2em;
-width: 65%;
-position: relative;
-left: 9em;
-text-align: left;
-font-size: 18px;
+#belmondo_pics{
+  width: 80%;
+  height: 100%;
+  margin-bottom: 5em;
+}
+
+#belmondo_pics img{
+  width: 100%;
+  height: 100%;
 }
 
 #belmondo-1 {
   width: 77%;
   height: 100%;
-  overflow: hidden;
-  margin: auto;
-}
-
-#belmondo-1 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#belmondo_pics{
-  width: 81%;
-  height: 40%;
   overflow: hidden;
   margin: auto;
 }
@@ -744,17 +687,6 @@ position: relative;
 bottom: 3em;
 }
 
-#belmondo_text p{
-color: var(--beige);
-font-size: 16px;
-width: 100%;
-padding-left: 2em;
-padding-right: 2em;
-padding-top: 1em;
-padding-bottom: 1em;
-text-align: left;
-}
-
 /* LADY_MACAO*/
 
 #macao{
@@ -764,14 +696,15 @@ text-align: left;
   font-family: 'Courier New', Courier, monospace;
 }
 
-#macao h6{
-margin-top: 2em;
-margin-bottom: 2em;
-width: 65%;
-position: relative;
-left: 9em;
-text-align: left;
-font-size: 18px;
+#macao_pics{
+  width: 80%;
+  height: 100%;
+  margin-bottom: 5em;
+}
+
+#macao_pics img{
+  width: 100%;
+  height: 100%;
 }
 
 #macao-1 {
@@ -779,20 +712,6 @@ font-size: 18px;
   height: 100%;
   overflow: hidden;
   margin: auto;
-}
-
-#macao-1 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#macao_pics{
-  width: 81%;
-  height: 40%;
-  overflow: hidden;
-  margin: auto;
-  margin-bottom: 5em;
 }
 
 #macao_text{
@@ -803,16 +722,6 @@ position: relative;
 bottom: 3em;
 }
 
-#macao_text p{
-font-size: 16px;
-width: 100%;
-padding-left: 2em;
-padding-right: 2em;
-padding-top: 1em;
-padding-bottom: 1em;
-text-align: left;
-}
-
 /* CASA MACARENO*/
 
 #macareno{
@@ -821,14 +730,15 @@ text-align: left;
   font-family: 'Courier New', Courier, monospace;
 }
 
-#macareno h6{
-margin-top: 2em;
-margin-bottom: 2em;
-width: 65%;
-position: relative;
-left: 9em;
-text-align: left;
-font-size: 18px;
+#macareno_pics{
+  width: 80%;
+  height: 100%;
+  margin-bottom: 5em;
+}
+
+#macareno_pics img{
+  width: 100%;
+  height: 100%;
 }
 
 #macareno-1 {
@@ -838,37 +748,12 @@ font-size: 18px;
   margin: auto;
 }
 
-#macareno-1 img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#macareno_pics{
-  width: 81%;
-  height: 40%;
-  overflow: hidden;
-  margin: auto;
-  margin-bottom: 5em;
-}
-
 #macareno_text{
 background-color: var(--turquesa);
 margin-left: 10em;
 width: 78%;
 position: relative;
 bottom: 3em;
-}
-
-#macareno_text p{
-color: var(--beige);
-font-size: 16px;
-width: 100%;
-padding-left: 2em;
-padding-right: 2em;
-padding-top: 1em;
-padding-bottom: 1em;
-text-align: left;
 }
 
 /* media queries index */
@@ -953,4 +838,64 @@ text-align: left;
   .disappear-sm{
     display: none;
   }
+}
+
+/* media queries restaurantes */
+@media screen and (max-width: 992px){
+
+  
+  #restaurantes h6 {
+    position: relative;
+    left: 6.5em;
+  }
+
+  #tikitako_text{
+    margin-left: 7em;
+  }
+
+  #tabernas_text{
+    margin-left: 7em;
+    }
+
+  #Xiongzai_text{
+    margin-left: 7em;
+    }
+
+  #belmondo_text{
+    margin-left: 7em;
+    }
+
+  #macao_text{
+    margin-left: 7em;
+    }
+
+  #macareno_text{
+    margin-left: 7em;
+    }
+}
+@media screen and (max-width: 768px){
+
+  #tikitako_text{
+    margin-left: 6em;
+  }
+
+  #tabernas_text{
+    margin-left: 6em;
+    }
+
+  #Xiongzai_text{
+    margin-left: 6em;
+    }
+
+  #belmondo_text{
+    margin-left: 6em;
+    }
+
+  #macao_text{
+    margin-left: 6em;
+    }
+
+  #macareno_text{
+    margin-left: 6em;
+    }
 }
