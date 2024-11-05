@@ -560,24 +560,6 @@ footer h5{
     margin: auto;
 }
 
-#tikitako_pics #tiki_tako_3{
-    width: 100%;
-    height: 76%;
-    object-fit: cover;
-}
-
-#tikitako_pics #tiki_tako_2{
-    width: 100%;
-    height: 76%;
-    object-fit: cover;
-}
-
-#tikitako_pics #tiki_tako_4{
-    width: 100%;
-    height: 76%;
-    object-fit: cover;
-}
-
 #tikitako_text{
   background-color: var(--rojo);
   margin-left: 10em;
@@ -633,24 +615,6 @@ font-size: 18px;
   height: 40%;
   overflow: hidden;
   margin: auto;
-}
-
-#tabernas_pics #tabernas_3{
-  width: 100%;
-  height: 76%;
-  object-fit: cover;
-}
-
-#tabernas_pics #tabernas_2{
-  width: 100%;
-  height: 76%;
-  object-fit: cover;
-}
-
-#tabernas_pics #tabernas_4{
-  width: 100%;
-  height: 76%;
-  object-fit: cover;
 }
 
 #tabernas_text{
@@ -712,24 +676,6 @@ font-size: 18px;
   margin-bottom: 6em;
 }
 
-#Xiongzai_pics #Xiongzai_3{
-  width: 100%;
-  height: 116%;
-  object-fit: cover;
-}
-
-#Xiongzai_pics #Xiongzai_2{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#Xiongzai_pics #Xiongzai_4{
-  width: 100%;
-  height: 102%;
-  object-fit: cover;
-}
-
 #Xiongzai_text{
 background-color: var(--azul);
 margin-left: 10em;
@@ -785,24 +731,6 @@ font-size: 18px;
   height: 40%;
   overflow: hidden;
   margin: auto;
-}
-
-#belmondo_pics #belmondo_2{
-  width: 100%;
-  height: 76%;
-  object-fit: cover;
-}
-
-#belmondo_pics #belmondo_3{
-  width: 100%;
-  height: 76%;
-  object-fit: cover;
-}
-
-#belmondo_pics #belmondo_4{
-  width: 100%;
-  height: 76%;
-  object-fit: cover;
 }
 
 #belmondo_text{
@@ -864,24 +792,6 @@ font-size: 18px;
   margin-bottom: 5em;
 }
 
-#macao_pics #macao_2{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#macao_pics #macao_3{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#macao_pics #macao_4{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 #macao_text{
 background-color: var(--amarillo);
 margin-left: 10em;
@@ -937,24 +847,6 @@ font-size: 18px;
   overflow: hidden;
   margin: auto;
   margin-bottom: 5em;
-}
-
-#macareno_pics #macareno_2{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#macareno_pics #macareno_3{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#macareno_pics #macareno_4{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 #macareno_text{
