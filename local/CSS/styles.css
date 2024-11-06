@@ -411,9 +411,9 @@ footer h5{
 }
 
 #pr-img h2{
-  color: var(--beige);
   font-family: "Source Serif 4", serif;  
   margin: 6%;
+  color: white;
 } 
 
 main p{
@@ -430,11 +430,13 @@ main p{
 #restaurantes h6{
   margin-top: 2em;
   margin-bottom: 2em;
-  width: 65%;
-  position: relative;
-  left: 9em;
+  width: 100%;
   text-align: left;
   font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
   #restaurantes_mini{
@@ -449,6 +451,13 @@ main p{
   #restaurantes_mini a{
     width: 100%;
     height: 100%;
+  }
+
+  .restaurante-1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
   }
 
   #text{
@@ -584,13 +593,6 @@ main p{
   height: 100%;
 }
 
-#tikitako-1 {
-  width: 77%;
-  height: 100%;
-  overflow: hidden;
-  margin: auto;
-}
-
 /* TABERNAS */
 
 #tabernas{
@@ -608,13 +610,6 @@ main p{
 #tabernas_pics img{
   width: 100%;
   height: 100%;
-}
-
-#tabernas-1 {
-  width: 77%;
-  height: 100%;
-  overflow: hidden;
-  margin: auto;
 }
 
 /* XIONGZAI */
@@ -637,13 +632,6 @@ main p{
   height: 100%;
 }
 
-#Xiongzai-1 {
-  width: 77%;
-  height: 100%;
-  overflow: hidden;
-  margin: auto;
-}
-
 /* BELMONDO*/
 
 #belmondo{
@@ -661,13 +649,6 @@ main p{
 #belmondo_pics img{
   width: 100%;
   height: 100%;
-}
-
-#belmondo-1 {
-  width: 77%;
-  height: 100%;
-  overflow: hidden;
-  margin: auto;
 }
 
 /* LADY_MACAO*/
@@ -690,13 +671,6 @@ main p{
   height: 100%;
 }
 
-#macao-1 {
-  width: 77%;
-  height: 100%;
-  overflow: hidden;
-  margin: auto;
-}
-
 /* CASA MACARENO*/
 
 #macareno{
@@ -714,13 +688,6 @@ main p{
 #macareno_pics img{
   width: 100%;
   height: 100%;
-}
-
-#macareno-1 {
-  width: 77%;
-  height: 100%;
-  overflow: hidden;
-  margin: auto;
 }
 
 /* media queries index */
@@ -864,7 +831,8 @@ main p{
   
   #restaurantes h6 {
     position: relative;
-    left: 6.5em;
+    left: 4.5em;
+    width: 86%;
   }
 
   #text{
@@ -883,8 +851,52 @@ main p{
     bottom: 3em;
   }
 
+  #restaurantes h6 {
+    position: relative;
+    left: 4.5em;
+    width: 79%;
+  }
+
   #tikitako_pics img {
-    width: 100%;
+    width: 160%;
     height: 100%;
+    position: relative;
+    right: 3em;
 }
+
+  #tabernas_pics img{
+    width: 160%;
+    height: 100%;
+    position: relative;
+    right: 3em;
+  }
+
+  #Xiongzai_pics img{
+    width: 160%;
+    height: 100%;
+    position: relative;
+    right: 3em;
+  }
+
+  #belmondo_pics img{
+    width: 160%;
+    height: 100%;
+    position: relative;
+    right: 3em;
+  }
+
+  #macao_pics img{
+    width: 160%;
+    height: 100%;
+    position: relative;
+    right: 3em;
+  }
+
+  #macareno_pics img{
+    width: 160%;
+    height: 100%;
+    position: relative;
+    right: 3em;
+  }
+
 }
