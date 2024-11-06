@@ -451,9 +451,17 @@ main p{
     height: 100%;
   }
 
+  #text{
+    margin-left: 10em;
+    width: 76%;
+    position: relative;
+    bottom: 3em;
+    color: white;
+  }
+
   #tikitako_mini{
     background-color: var(--rojo);
-    width: 100%;
+    width: 80%;
     height: 80%;
     max-width: 300px;
     aspect-ratio: 1 / 1;
@@ -469,7 +477,7 @@ main p{
 
   #tabernas_mini{
     background-color: var(--verde);
-    width: 100%;
+    width: 80%;
     height: 80%;
     max-width: 300px;
     aspect-ratio: 1 / 1;      
@@ -485,7 +493,7 @@ main p{
 
   #Xiongzai_mini{
     background-color: var(--azul);
-    width: 100%;
+    width: 80%;
     height: 80%;
     max-width: 300px;         
     aspect-ratio: 1 / 1;      
@@ -501,7 +509,7 @@ main p{
 
   #belmondo_mini{
     background-color: var(--naranja);
-    width: 100%;
+    width: 80%;
     height: 80%;
     max-width: 300px;         
     aspect-ratio: 1 / 1;      
@@ -517,7 +525,7 @@ main p{
 
   #macao_mini{
     background-color: var(--amarillo);
-    width: 100%;
+    width: 80%;
     height: 80%;
     max-width: 300px;         
     aspect-ratio: 1 / 1;      
@@ -533,7 +541,7 @@ main p{
 
   #macareno_mini{
     background-color: var(--turquesa);
-    width: 100%;
+    width: 80%;
     height: 80%;
     max-width: 300px;        
     aspect-ratio: 1 / 1;     
@@ -583,14 +591,6 @@ main p{
   margin: auto;
 }
 
-#tikitako_text{
-  background-color: var(--rojo);
-  margin-left: 10em;
-  width: 78%;
-  position: relative;
-  bottom: 3em;
-}
-
 /* TABERNAS */
 
 #tabernas{
@@ -615,14 +615,6 @@ main p{
   height: 100%;
   overflow: hidden;
   margin: auto;
-}
-
-#tabernas_text{
-background-color: var(--verde);
-margin-left: 10em;
-width: 78%;
-position: relative;
-bottom: 3em;
 }
 
 /* XIONGZAI */
@@ -652,14 +644,6 @@ bottom: 3em;
   margin: auto;
 }
 
-#Xiongzai_text{
-background-color: var(--azul);
-margin-left: 10em;
-width: 78%;
-position: relative;
-bottom: 3em;
-}
-
 /* BELMONDO*/
 
 #belmondo{
@@ -684,14 +668,6 @@ bottom: 3em;
   height: 100%;
   overflow: hidden;
   margin: auto;
-}
-
-#belmondo_text{
-background-color: var(--naranja);
-margin-left: 10em;
-width: 78%;
-position: relative;
-bottom: 3em;
 }
 
 /* LADY_MACAO*/
@@ -721,14 +697,6 @@ bottom: 3em;
   margin: auto;
 }
 
-#macao_text{
-background-color: var(--amarillo);
-margin-left: 10em;
-width: 78%;
-position: relative;
-bottom: 3em;
-}
-
 /* CASA MACARENO*/
 
 #macareno{
@@ -753,14 +721,6 @@ bottom: 3em;
   height: 100%;
   overflow: hidden;
   margin: auto;
-}
-
-#macareno_text{
-background-color: var(--turquesa);
-margin-left: 10em;
-width: 78%;
-position: relative;
-bottom: 3em;
 }
 
 /* media queries index */
@@ -907,53 +867,24 @@ bottom: 3em;
     left: 6.5em;
   }
 
-  #tikitako_text{
-    margin-left: 7em;
+  #text{
+    margin-left: 8em;
+    width: 74%;
+    position: relative;
+    bottom: 3em;
   }
-
-  #tabernas_text{
-    margin-left: 7em;
-    }
-
-  #Xiongzai_text{
-    margin-left: 7em;
-    }
-
-  #belmondo_text{
-    margin-left: 7em;
-    }
-
-  #macao_text{
-    margin-left: 7em;
-    }
-
-  #macareno_text{
-    margin-left: 7em;
-    }
 }
 @media screen and (max-width: 768px){
 
-  #tikitako_text{
-    margin-left: 6em;
+  #text{
+    margin-left: 6.5em;
+    width: 72%;
+    position: relative;
+    bottom: 3em;
   }
 
-  #tabernas_text{
-    margin-left: 6em;
-    }
-
-  #Xiongzai_text{
-    margin-left: 6em;
-    }
-
-  #belmondo_text{
-    margin-left: 6em;
-    }
-
-  #macao_text{
-    margin-left: 6em;
-    }
-
-  #macareno_text{
-    margin-left: 6em;
-    }
+  #tikitako_pics img {
+    width: 100%;
+    height: 100%;
+}
 }
