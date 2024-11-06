@@ -66,7 +66,7 @@ a:link {
     color: black;
 }
 
-#logo-menu, #logo-foote, #logo-menu-movil{
+#logo-menu, #logo-footer, #logo-menu-movil{
     font-family: "Poppins", system-ui;
     font-weight: 700;
     font-style: normal;
@@ -102,6 +102,10 @@ a:link {
 .navbar-toggler:focus {
     box-shadow: none; 
     outline: none; 
+}
+
+.close-menu{
+  display: none;
 }
 
 .scrolled{
@@ -388,6 +392,9 @@ footer h5{
   display: none;
 }
 
+#enlace-pag{
+  padding: 0;
+}
 
 /* RESTAURANTES */
 
@@ -757,6 +764,14 @@ bottom: 3em;
 }
 
 /* media queries index */
+@media screen and (max-width: 1200px){
+#ocio .col, .pr-size, #pr-ocio{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+}
 @media screen and (max-width: 992px){
   .disappear{
     display: none;
@@ -778,12 +793,53 @@ bottom: 3em;
   .art-col{
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   #arte .img-square{
     width: fit-content;
-    height: 10vh;
+    height: 20vh;
   }
+
+  .small-img{
+    margin-bottom: 1rem;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: auto;
+    text-align: left;
+  }
+
+  #arte .sc-articulo {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .img-square {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .img-zoom:hover {
+    -webkit-transform: none;
+  transform: none;
+  }
+
+  .img-cont{
+    width: fit-content;
+    overflow: visible;
+  }
+  
+  #arte h5{
+    max-width: none;
+    margin: 0%;
+  }
+
+  .sc-articulo{
+    padding-left: 1rem;
+  }
+
+  
 }
 @media screen and (max-width: 768px){
 
@@ -821,6 +877,7 @@ bottom: 3em;
     width: 24px;
     height: 24px;
     cursor: pointer;
+    display: block;
   }
 /* hero */
   #hero video{
@@ -830,14 +887,15 @@ bottom: 3em;
   #hero h2{
     font-size: 2rem;
   }
-
+/* parallax */
   #img-parallax{
     height: 10vh;
   }
-
+/* bucket list */
   .disappear-sm{
     display: none;
   }
+
 }
 
 /* media queries restaurantes */

@@ -110,32 +110,8 @@ if (currentFile === "index.html") {
     fadeOut: true,
     loop: true
   });
-    
-  // slideshow
-  $(document).ready(function() {
-    var i = 0;
-    var images = [
-        "media/slide-1.jpg",
-        "media/slide-2.jpg",
-        "media/slide-3.jpg",
-        "media/slide-4.jpg",
-        "media/slide-5.jpg"
-    ];
-    var slideTime = 2000;
 
-    function changePicture() {
-        $("#slideshow").css("background-image", "url(" + images[i] + ")");
-
-        if (i < images.length - 1) {
-            i++;
-        } else {
-            i = 0;
-        }
-        setTimeout(changePicture, slideTime);
-    }
-
-    changePicture();
-});
+  
 
 };
 
