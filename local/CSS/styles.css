@@ -703,7 +703,7 @@ main p{
 }
 
 #ocio .col{
-  margin-bottom:1rem;
+  margin-bottom:1rem; 
 }
 
 #enlace-pag{
@@ -730,6 +730,14 @@ main p{
   max-width: 45vw;
   text-align: center;
 
+}
+
+#ocio br{
+  display: none;
+}
+
+.carousel{
+  margin-bottom: 1rem;
 }
 
 
