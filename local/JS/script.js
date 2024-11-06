@@ -111,8 +111,6 @@ if (currentFile === "index.html") {
     loop: true
   });
 
-  
-
 };
 
 
