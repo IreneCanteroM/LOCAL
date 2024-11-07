@@ -37,6 +37,12 @@ main{
     width: 0%;
 }
 
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 /* menu */
 
 #menu{
@@ -162,6 +168,9 @@ p{
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 input[type="checkbox"] {
@@ -334,6 +343,25 @@ h4{
 }
 
 #ocio .row .col:hover, .pr-size:hover{
+  background-color: rgb(181, 160, 132);
+}
+
+#more-ocio{
+  display: none;
+}
+
+#ocio .btn{
+  background-color: var(--beige);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+#ocio .btn:hover{
   background-color: rgb(181, 160, 132);
 }
 /* carrusel  */

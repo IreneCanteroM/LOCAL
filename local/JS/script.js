@@ -23,6 +23,7 @@ navbarCollapse.addEventListener('hide.bs.collapse', function () {
     menu.style.borderRadius = "900px";
 });
 
+// scroll indicator
 $(window).scroll(function () {
   scrollIndicator();
 });
@@ -34,16 +35,15 @@ function scrollIndicator() {
   $("#bar").width(scrolled + "%");
 }
 
-function playAnimation()
-{
-    document.getElementById('flecha').src = "media/flecha.gif";
-    document.getElementById('flecha').style.filter = 'sepia(41%) brightness(64%) hue-rotate(23deg) saturate(84%)';
+// botón flecha 
+function playAnimation() {
+  $('#flecha').attr('src', 'media/flecha.gif').css('filter', 'sepia(41%) brightness(64%) hue-rotate(23deg) saturate(84%)');
 }
-function showStatic()
-{
-    document.getElementById('flecha').src = "media/flecha-estatica.jpg";
-    document.getElementById('flecha').style.filter = 'none';
+
+function showStatic() {
+  $('#flecha').attr('src', 'media/flecha-estatica.jpg').css('filter', 'none');
 }
+
 // menu movil
 const menuItems = document.querySelectorAll('.navbar-nav .nav-item');
 
@@ -110,6 +110,11 @@ if (currentFile === "index.html") {
     fadeOut: true,
     loop: true
   });
+
+  $("#btn-ocio").click(function () {
+    $("#more-ocio").slideToggle("slow");
+  });
+
 
 };
 
