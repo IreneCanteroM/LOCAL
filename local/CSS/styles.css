@@ -448,16 +448,16 @@ main p{
   color: white;
   font-size: 16px;
   width: 100%;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: left;
 }
 
 #restaurantes h6{
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 100%;
   text-align: left;
   font-size: 18px;
@@ -468,11 +468,11 @@ main p{
 }
 
   #restaurantes_mini{
-    padding-top: 5em;
+    padding-top: 5rem;
   }
 
   #restaurantes_mini h6{
-    padding-top: 1em;
+    padding-top: 1rem;
     font-family: 'Courier New', Courier, monospace;
   }
 
@@ -489,10 +489,10 @@ main p{
   }
 
   #text{
-    margin-left: 10em;
+    margin-left: 10rem;
     width: 76%;
     position: relative;
-    bottom: 3em;
+    bottom: 3rem;
     color: white;
   }
 
@@ -501,7 +501,6 @@ main p{
     width: 80%;
     height: 80%;
     max-width: 300px;
-    aspect-ratio: 1 / 1;
     overflow: hidden;
     margin: auto;
   }
@@ -517,7 +516,6 @@ main p{
     width: 80%;
     height: 80%;
     max-width: 300px;
-    aspect-ratio: 1 / 1;      
     overflow: hidden;         
     margin: auto;
   }
@@ -532,8 +530,7 @@ main p{
     background-color: var(--azul);
     width: 80%;
     height: 80%;
-    max-width: 300px;         
-    aspect-ratio: 1 / 1;      
+    max-width: 300px;            
     overflow: hidden;         
     margin: auto;
   }
@@ -548,8 +545,7 @@ main p{
     background-color: var(--naranja);
     width: 80%;
     height: 80%;
-    max-width: 300px;         
-    aspect-ratio: 1 / 1;      
+    max-width: 300px;           
     overflow: hidden;         
     margin: auto;
   }
@@ -564,8 +560,7 @@ main p{
     background-color: var(--amarillo);
     width: 80%;
     height: 80%;
-    max-width: 300px;         
-    aspect-ratio: 1 / 1;      
+    max-width: 300px;             
     overflow: hidden;         
     margin: auto;
   }
@@ -580,8 +575,7 @@ main p{
     background-color: var(--turquesa);
     width: 80%;
     height: 80%;
-    max-width: 300px;        
-    aspect-ratio: 1 / 1;     
+    max-width: 300px;          
     overflow: hidden;         
     margin: auto;
   }
@@ -613,7 +607,7 @@ main p{
 #tikitako_pics{
   width: 80%;
   height: 100%;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 #tikitako_pics img{
@@ -632,7 +626,7 @@ main p{
 #tabernas_pics{
   width: 80%;
   height: 100%;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 #tabernas_pics img{
@@ -652,7 +646,7 @@ main p{
 #Xiongzai_pics{
   width: 80%;
   height: 100%;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 #Xiongzai_pics img{
@@ -671,7 +665,7 @@ main p{
 #belmondo_pics{
   width: 80%;
   height: 100%;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 #belmondo_pics img{
@@ -691,7 +685,7 @@ main p{
 #macao_pics{
   width: 80%;
   height: 100%;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 #macao_pics img{
@@ -710,7 +704,7 @@ main p{
 #macareno_pics{
   width: 80%;
   height: 100%;
-  margin-bottom: 5em;
+  margin-bottom: 5rem;
 }
 
 #macareno_pics img{
@@ -933,72 +927,81 @@ main p{
   
   #restaurantes h6 {
     position: relative;
-    left: 4.5em;
+    left: 4.5rem;
     width: 86%;
   }
 
   #text{
-    margin-left: 8em;
+    margin-left: 8rem;
     width: 74%;
     position: relative;
-    bottom: 3em;
+    bottom: 3rem;
   }
 }
 @media screen and (max-width: 768px){
 
   #text{
-    margin-left: 6.5em;
+    margin-left: 6.5rem;
     width: 72%;
     position: relative;
-    bottom: 3em;
+    bottom: 3rem;
   }
 
   #restaurantes h6 {
     position: relative;
-    left: 4.5em;
+    left: 4.5rem;
     width: 79%;
   }
+
+  #restaurantes_mini {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  #restaurantes_mini h6 {
+    padding-top: 0rem;
+}
 
   #tikitako_pics img {
     width: 160%;
     height: 100%;
     position: relative;
-    right: 3em;
+    right: 3rem;
 }
 
   #tabernas_pics img{
     width: 160%;
     height: 100%;
     position: relative;
-    right: 3em;
+    right: 3rem;
   }
 
   #Xiongzai_pics img{
     width: 160%;
     height: 100%;
     position: relative;
-    right: 3em;
+    right: 3rem;
   }
 
   #belmondo_pics img{
     width: 160%;
     height: 100%;
     position: relative;
-    right: 3em;
+    right: 3rem;
   }
 
   #macao_pics img{
     width: 160%;
     height: 100%;
     position: relative;
-    right: 3em;
+    right: 3rem;
   }
 
   #macareno_pics img{
     width: 160%;
     height: 100%;
     position: relative;
-    right: 3em;
+    right: 3rem;
   }
 
 }
