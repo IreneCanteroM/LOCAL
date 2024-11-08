@@ -1,4 +1,4 @@
-// menu que se encoje y redondea al hacer scroll
+// menu que se encoge y redondea al hacer scroll
 
 const menu = document.getElementById("menu");
 const navbarCollapse = document.getElementById("navbarNav");
