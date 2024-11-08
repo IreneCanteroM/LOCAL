@@ -947,6 +947,25 @@ main p{
     bottom: 3rem;
   }
 
+  #pr-img-md {
+    width: 100%;
+    height: 14%;
+    top: 0;
+    background-color: var(--naranja);
+  }
+
+  #pr-img-md img {
+    width: 100%;
+    height: 25%;
+  }
+
+  #pr-img-md h2 {
+    font-family: "Source Serif 4", serif;
+    margin: 6%;
+    color: white;
+    font-size: 18px;
+}
+
   #restaurantes h6 {
     position: relative;
     left: 4.5rem;
