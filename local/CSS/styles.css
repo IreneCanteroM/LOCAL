@@ -898,11 +898,20 @@ main p{
 }
 @media screen and (max-width: 768px){
 
+  #restaurantes h4{
+    font-size: 18px;
+  }
+
   #text{
     margin-left: 3.5rem;
     width: 72%;
     position: relative;
     bottom: 3rem;
+  }
+
+  .img_pr{
+    width: 100%;
+    height: 100%;
   }
 
   #pr-img-md {
@@ -936,54 +945,12 @@ main p{
   }
 
   #restaurantes_mini h6 {
-    padding-top: 0rem;
+    padding-top: 1rem;
 }
 
 .bundle_restaurants_pics img{
   width: 100%;
   height: 100%;
 }
-
-  /* #tikitako_pics img {
-    width: 160%;
-    height: 100%;
-    position: relative;
-    right: 3rem;
-}
-
-  #tabernas_pics img{
-    width: 160%;
-    height: 100%;
-    position: relative;
-    right: 3rem;
-  }
-
-  #Xiongzai_pics img{
-    width: 160%;
-    height: 100%;
-    position: relative;
-    right: 3rem;
-  }
-
-  #belmondo_pics img{
-    width: 160%;
-    height: 100%;
-    position: relative;
-    right: 3rem;
-  }
-
-  #macao_pics img{
-    width: 160%;
-    height: 100%;
-    position: relative;
-    right: 3rem;
-  }
-
-  #macareno_pics img{
-    width: 160%;
-    height: 100%;
-    position: relative;
-    right: 3rem;
-  } */
 
 }
