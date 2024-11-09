@@ -492,7 +492,7 @@ main p{
     margin: auto;
   }
 
-  #text{
+  .text{
     margin-left: 10rem;
     width: 76%;
     position: relative;
@@ -889,7 +889,7 @@ main p{
     width: 86%;
   }
 
-  #text{
+  .text{
     margin-left: 8rem;
     width: 74%;
     position: relative;
@@ -902,7 +902,7 @@ main p{
     font-size: 18px;
   }
 
-  #text{
+  .text{
     margin-left: 3.5rem;
     width: 72%;
     position: relative;
