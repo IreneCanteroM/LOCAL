@@ -448,13 +448,13 @@ footer h5{
 
 #pr-img h2{
   font-family: "Source Serif 4", serif;  
-  margin: 6%;
+  margin: 6rem;
   color: white;
 } 
 
 main p{
   color: white;
-  font-size: 16px;
+  font-size: 0.8rem;
   width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -468,7 +468,7 @@ main p{
   margin-bottom: 2rem;
   width: 100%;
   text-align: left;
-  font-size: 18px;
+  font-size: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -520,7 +520,7 @@ main p{
     margin: auto;
   }
 
-  ._mini .mini_img{
+  .mini_img{
     height: 100%;
     width: 80%;
     object-fit: cover;
@@ -813,7 +813,7 @@ main p{
     font-family: "Source Serif 4", serif;
     margin: 6%;
     color: white;
-    font-size: 18px;
+    font-size: 0.9rem;
 }
 
   #restaurantes h6 {
