@@ -213,6 +213,10 @@ label{
     background-color: var(--ocre);
 }
 
+.beige{
+  background-color: var(--beige);
+}
+
 /* parallax */
 #img-parallax{
     background-image: url("../media/fondo-churros.png");
@@ -508,8 +512,7 @@ main p{
     margin: auto;
   }
 
-  #tikitako_mini{
-    background-color: var(--rojo);
+  .mini{
     width: 80%;
     height: 80%;
     max-width: 300px;
@@ -517,84 +520,9 @@ main p{
     margin: auto;
   }
 
-  #tikitako_mini #tikitako_mini_img{
+  ._mini .mini_img{
     height: 100%;
     width: 80%;
-    object-fit: cover;
-  }
-
-  #tabernas_mini{
-    background-color: var(--verde);
-    width: 80%;
-    height: 80%;
-    max-width: 300px;
-    overflow: hidden;         
-    margin: auto;
-  }
-
-  #tabernas_mini #tabernas_mini_img{
-    width: 80%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  #Xiongzai_mini{
-    background-color: var(--azul);
-    width: 80%;
-    height: 80%;
-    max-width: 300px;            
-    overflow: hidden;         
-    margin: auto;
-  }
-
-  #Xiongzai_mini #Xiongzai_mini_img{
-    width: 80%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  #belmondo_mini{
-    background-color: var(--naranja);
-    width: 80%;
-    height: 80%;
-    max-width: 300px;           
-    overflow: hidden;         
-    margin: auto;
-  }
-
-  #belmondo_mini #belmondo_mini_img{
-    width: 80%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  #macao_mini{
-    background-color: var(--amarillo);
-    width: 80%;
-    height: 80%;
-    max-width: 300px;             
-    overflow: hidden;         
-    margin: auto;
-  }
-
-  #macao_mini #macao_mini_img{
-    width: 80%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  #macareno_mini{
-    background-color: var(--turquesa);
-    width: 80%;
-    height: 80%;
-    max-width: 300px;          
-    overflow: hidden;         
-    margin: auto;
-  }
-
-  #macareno_mini #macareno_mini_img{
-    width: 80%;
-    height: 100%;
     object-fit: cover;
   }
 
@@ -618,57 +546,12 @@ main p{
     height: 100%;
   }
 
+  .big-restaurante{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+  }
 
-/* TIKITAKO */
-
-#tikitako{
-  background-color: var(--beige);
-  height: 100%;
-  width: 100%;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-/* TABERNAS */
-
-#tabernas{
-  height: 100%;
-  width: 100%;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-/* XIONGZAI */
-
-#Xiongzai{
-  background-color: var(--beige);
-  height: 100%;
-  width: 100%;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-/* BELMONDO*/
-
-#belmondo{
-  height: 100%;
-  width: 100%;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-/* LADY_MACAO*/
-
-#macao{
-  background-color: var(--beige);
-  height: 100%;
-  width: 100%;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-/* CASA MACARENO*/
-
-#macareno{
-  height: 100%;
-  width: 100%;
-  font-family: 'Courier New', Courier, monospace;
-}
 
 /* media queries index */
 @media screen and (max-width: 1200px){
