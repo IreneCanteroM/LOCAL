@@ -782,12 +782,12 @@ main p{
 @media screen and (max-width: 768px){
 
   #restaurantes h4{
-    font-size: 18px;
+    font-size: 0.8rem;
   }
 
   .text{
-    margin-left: 3.5rem;
-    width: 72%;
+    margin-left: 0rem;
+    width: 100%;
     position: relative;
     bottom: 3rem;
   }
